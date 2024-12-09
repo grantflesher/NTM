@@ -1,0 +1,9 @@
+Enter the .csv file for the NTM input file: /escnfs/home/gflesher/theory2/test_files/outside_match_gflesher.csv
+Enter the string input: abbbbbbbbbabbbbbbbbbbba
+Enter the maximum depth: 100
+Machine Name: outside match
+Input String: abbbbbbbbbabbbbbbbbbbba
+Max Depth: 100
+String rejected in 12 steps
+Depth of rejecting path: 12
+Total configurations explored: 11

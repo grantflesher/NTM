@@ -1,0 +1,14 @@
+outside match
+q1,q2,q3,q4,q5
+a,b
+a,b,_
+q1
+q5
+qreject
+q1,a,q2,a,R
+q1,b,q3,b,R
+q2,b,q2,b,R
+q2,a,q4,a,R
+q3,a,q3,a,R
+q3,b,q4,b,R
+q4,_,q5,_,R

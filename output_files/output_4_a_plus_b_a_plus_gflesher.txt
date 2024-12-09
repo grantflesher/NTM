@@ -1,0 +1,9 @@
+Enter the .csv file for the NTM input file: /escnfs/home/gflesher/theory2/test_files/a_plus_b_a_plus_gflesher.csv
+Enter the string input: abba
+Enter the maximum depth: 100
+Machine Name: a plus b a plus
+Input String: abba
+Max Depth: 100
+String rejected in 3 steps
+Depth of rejecting path: 3
+Total configurations explored: 2

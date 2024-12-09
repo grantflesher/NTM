@@ -1,0 +1,28 @@
+Enter the .csv file for the NTM input file: /escnfs/home/gflesher/theory2/test_files/alternate_gflesher.csv
+Enter the string input: bbbababababababa
+Enter the maximum depth: 100
+Machine Name: alternate
+Input String: bbbababababababa
+Max Depth: 100
+String accepted in 17 steps
+Depth of accepting path: 17
+Total configurations explored: 17
+Accepting Path:
+Left: , Current State: q1, Current Char: b, Right: bbababababababa
+Left: b, Current State: q3, Current Char: b, Right: bababababababa
+Left: bb, Current State: q3, Current Char: b, Right: ababababababa
+Left: bbb, Current State: q3, Current Char: a, Right: babababababa
+Left: bbba, Current State: q4, Current Char: b, Right: abababababa
+Left: bbbab, Current State: q5, Current Char: a, Right: bababababa
+Left: bbbaba, Current State: q4, Current Char: b, Right: ababababa
+Left: bbbabab, Current State: q5, Current Char: a, Right: babababa
+Left: bbbababa, Current State: q4, Current Char: b, Right: abababa
+Left: bbbababab, Current State: q5, Current Char: a, Right: bababa
+Left: bbbabababa, Current State: q4, Current Char: b, Right: ababa
+Left: bbbabababab, Current State: q5, Current Char: a, Right: baba
+Left: bbbababababa, Current State: q4, Current Char: b, Right: aba
+Left: bbbababababab, Current State: q5, Current Char: a, Right: ba
+Left: bbbabababababa, Current State: q4, Current Char: b, Right: a
+Left: bbbabababababab, Current State: q5, Current Char: a, Right: _
+Left: bbbababababababa, Current State: q4, Current Char: _, Right: _
+Left: bbbababababababa_, Current State: q6, Current Char: _, Right: _

@@ -1,0 +1,34 @@
+Enter the .csv file for the NTM input file: /escnfs/home/gflesher/theory2/test_files/alternate_gflesher.csv
+Enter the string input: bbbbbbbbababababababab
+Enter the maximum depth: 100
+Machine Name: alternate
+Input String: bbbbbbbbababababababab
+Max Depth: 100
+String accepted in 23 steps
+Depth of accepting path: 23
+Total configurations explored: 23
+Accepting Path:
+Left: , Current State: q1, Current Char: b, Right: bbbbbbbababababababab
+Left: b, Current State: q3, Current Char: b, Right: bbbbbbababababababab
+Left: bb, Current State: q3, Current Char: b, Right: bbbbbababababababab
+Left: bbb, Current State: q3, Current Char: b, Right: bbbbababababababab
+Left: bbbb, Current State: q3, Current Char: b, Right: bbbababababababab
+Left: bbbbb, Current State: q3, Current Char: b, Right: bbababababababab
+Left: bbbbbb, Current State: q3, Current Char: b, Right: bababababababab
+Left: bbbbbbb, Current State: q3, Current Char: b, Right: ababababababab
+Left: bbbbbbbb, Current State: q3, Current Char: a, Right: babababababab
+Left: bbbbbbbba, Current State: q4, Current Char: b, Right: abababababab
+Left: bbbbbbbbab, Current State: q5, Current Char: a, Right: bababababab
+Left: bbbbbbbbaba, Current State: q4, Current Char: b, Right: ababababab
+Left: bbbbbbbbabab, Current State: q5, Current Char: a, Right: babababab
+Left: bbbbbbbbababa, Current State: q4, Current Char: b, Right: abababab
+Left: bbbbbbbbababab, Current State: q5, Current Char: a, Right: bababab
+Left: bbbbbbbbabababa, Current State: q4, Current Char: b, Right: ababab
+Left: bbbbbbbbabababab, Current State: q5, Current Char: a, Right: babab
+Left: bbbbbbbbababababa, Current State: q4, Current Char: b, Right: abab
+Left: bbbbbbbbababababab, Current State: q5, Current Char: a, Right: bab
+Left: bbbbbbbbabababababa, Current State: q4, Current Char: b, Right: ab
+Left: bbbbbbbbabababababab, Current State: q5, Current Char: a, Right: b
+Left: bbbbbbbbababababababa, Current State: q4, Current Char: b, Right: _
+Left: bbbbbbbbababababababab, Current State: q5, Current Char: _, Right: _
+Left: bbbbbbbbababababababab_, Current State: q6, Current Char: _, Right: _

@@ -1,0 +1,17 @@
+alternate
+q1,q2,q3,q4,q5
+a,b
+a,b,_
+q1
+q6
+qreject
+q1,a,q2,a,R
+q1,b,q3,b,R
+q2,a,q2,q,R
+q3,b,q3,b,R
+q2,b,q5,b,R
+q3,a,q4,a,R
+q4,b,q5,b,R
+q5,a,q4,a,R
+q4,_,q6,_,R
+q5,_,q6,_,R

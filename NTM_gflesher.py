@@ -58,6 +58,7 @@ def run_NTM(ntm, input_string, max_depth):
     queue = [(initial_config, None)]  
     steps = 0
     max_steps = 100
+    configurations_explored = 0
     config_parents = {} #tracks tree, so i can trace path of solution later on
 
     while queue and len(tree) <= max_depth:
@@ -77,6 +78,7 @@ def run_NTM(ntm, input_string, max_depth):
             if state in ntm["Accept"]:
                 print(f"String accepted in {steps} steps")
                 print(f"Depth of accepting path: {len(tree) - 1}")
+                print(f"Total configurations explored: {configurations_explored}")
                 print("Accepting Path:")
                 return trace_path(config, config_parents)
 
@@ -112,6 +114,7 @@ def run_NTM(ntm, input_string, max_depth):
 
                     #adds to next level of tree 
                     next_level.append((new_config, tuple(config)))
+                    configurations_explored += 1 
 
         #updates the  tree and queue for next level of tree
         tree.append([cfg[0] for cfg in next_level])  
@@ -124,6 +127,7 @@ def run_NTM(ntm, input_string, max_depth):
     else:
         print(f"String rejected in {steps} steps")
         print(f"Depth of rejecting path: {len(tree) - 1}")
+        print(f"Total configurations explored: {configurations_explored}")
 
     return None
 

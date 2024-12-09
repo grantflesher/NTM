@@ -1,0 +1,20 @@
+Enter the .csv file for the NTM input file: /escnfs/home/gflesher/theory2/test_files/outside_match_gflesher.csv
+Enter the string input: baaaaaab
+Enter the maximum depth: 100
+Machine Name: outside match
+Input String: baaaaaab
+Max Depth: 100
+String accepted in 9 steps
+Depth of accepting path: 9
+Total configurations explored: 9
+Accepting Path:
+Left: , Current State: q1, Current Char: b, Right: aaaaaab
+Left: b, Current State: q3, Current Char: a, Right: aaaaab
+Left: ba, Current State: q3, Current Char: a, Right: aaaab
+Left: baa, Current State: q3, Current Char: a, Right: aaab
+Left: baaa, Current State: q3, Current Char: a, Right: aab
+Left: baaaa, Current State: q3, Current Char: a, Right: ab
+Left: baaaaa, Current State: q3, Current Char: a, Right: b
+Left: baaaaaa, Current State: q3, Current Char: b, Right: _
+Left: baaaaaab, Current State: q4, Current Char: _, Right: _
+Left: baaaaaab_, Current State: q5, Current Char: _, Right: _

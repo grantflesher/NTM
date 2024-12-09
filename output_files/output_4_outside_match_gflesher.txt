@@ -1,0 +1,36 @@
+Enter the .csv file for the NTM input file: /escnfs/home/gflesher/theory2/test_files/outside_match_gflesher.csv
+Enter the string input: abbbbbbbbbbbbbbbbbbbbbba
+Enter the maximum depth: 100
+Machine Name: outside match
+Input String: abbbbbbbbbbbbbbbbbbbbbba
+Max Depth: 100
+String accepted in 25 steps
+Depth of accepting path: 25
+Total configurations explored: 25
+Accepting Path:
+Left: , Current State: q1, Current Char: a, Right: bbbbbbbbbbbbbbbbbbbbbba
+Left: a, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbbbbbbbbba
+Left: ab, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbbbbbbbba
+Left: abb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbbbbbbba
+Left: abbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbbbbbba
+Left: abbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbbbbba
+Left: abbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbbbba
+Left: abbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbbba
+Left: abbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbbba
+Left: abbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbbba
+Left: abbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbbba
+Left: abbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbbba
+Left: abbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbbba
+Left: abbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbbba
+Left: abbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbbba
+Left: abbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbbba
+Left: abbbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbbba
+Left: abbbbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbbba
+Left: abbbbbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbbba
+Left: abbbbbbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bbba
+Left: abbbbbbbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: bba
+Left: abbbbbbbbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: ba
+Left: abbbbbbbbbbbbbbbbbbbbb, Current State: q2, Current Char: b, Right: a
+Left: abbbbbbbbbbbbbbbbbbbbbb, Current State: q2, Current Char: a, Right: _
+Left: abbbbbbbbbbbbbbbbbbbbbba, Current State: q4, Current Char: _, Right: _
+Left: abbbbbbbbbbbbbbbbbbbbbba_, Current State: q5, Current Char: _, Right: _

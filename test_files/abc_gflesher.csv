@@ -1,0 +1,14 @@
+abcs
+q1,q2,q3,q4,q5
+a,b,c
+a,b,c,_
+q1
+q5
+qreject
+q1,a,q2,a,R
+q2,a,q2,a,R
+q2,b,q3,b,R
+q3,b,q3,b,R
+q3,c,q4,c,R
+q4,c,q4,c,R
+q4,_,q5,_,R
